@@ -4,8 +4,8 @@ A script that processes an image URL to extract song names and add them to a Spo
 
 [The tweet that started this](https://twitter.com/heathensquirrel/status/1693203564703653956)
 
-![tweet](https://imgur.com/a/HdOxpKi)
-![first_image](https://imgur.com/KOIEKhB)
+![tweet](https://i.imgur.com/ZH9J5fo.png)
+![first_image](https://i.imgur.com/KOIEKhB.png)
 
 ## Description
 
