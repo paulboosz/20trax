@@ -7,6 +7,8 @@ A script that processes an image URL to extract song names and add them to a Spo
 ![tweet](https://i.imgur.com/ZH9J5fo.png)
 ![first_image](https://i.imgur.com/KOIEKhB.png)
 
+![first_image](https://i.imgur.com/CPq4BAK.png)
+
 ## Description
 
 This script uses Optical Character Recognition (OCR) to extract song names from an image. After extracting the song names, it interfaces with the Spotify API to search for these songs and add them to a specified playlist.
