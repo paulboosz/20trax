@@ -8,6 +8,7 @@
    Redirect the user to the Spotify Accounts service's authorization endpoint:
 
 `https://accounts.spotify.com/authorize?client_id={CLIENT_ID}&response_type=code&redirect_uri={REDIRECT_URI}&scope=playlist-modify-public`
+
 Replace {CLIENT_ID} with your Client ID and {REDIRECT_URI} with a valid redirect URI you've set in your Spotify Developer Dashboard for your app. The scope playlist-modify-public is necessary to create public playlists.
 
 After the user authorizes, they'll be redirected to your specified redirect URI with a code in the query string. Capture this code.
