@@ -40,7 +40,7 @@ def create_playlist(playlist_name, user_id, headers):
         headers=headers,
         json={
             "name": playlist_name,
-            "description": "created with 20trax",
+            "description": "made with https://github.com/paulboosz/20trax",
             "public": True,
         },
     )

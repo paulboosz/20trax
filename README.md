@@ -22,15 +22,16 @@ Update the `config.json` with your Spotify API token and user ID.
 
 ## Usage
 
-```$ python script_name.py <image_url> "<playlist_name>"```
-
+`$ python script_name.py <image_url> "<playlist_name>"`
 
 - `image_url`: The URL of the image containing the list of songs.
 - `playlist_name`: The name of the Spotify playlist to be created or updated.
 
 For example:
-```python script_name.py https://example.com/path/to/image.png "Nick's 20trax"```
+`python script_name.py https://example.com/path/to/image.png "Nick's 20trax"`
 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+Quickly made with the help of GPT-4 :)
