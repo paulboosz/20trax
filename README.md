@@ -1,7 +1,6 @@
 # Spotify Playlist Creator from Image
 
 A script that processes an image URL to extract song names and add them to a Spotify playlist.
-![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
 
 
 [The tweet that started this](https://twitter.com/heathensquirrel/status/1693203564703653956)
