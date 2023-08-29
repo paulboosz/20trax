@@ -8,7 +8,7 @@ A script that processes an image URL to extract song names and add them to a Spo
 [The twitter trend](https://twitter.com/hashtag/20tracks?src=hashtag_click)
 
 
-![tweet](https://i.imgur.com/wGtgjo3.png | width=100)
+![tweet](https://i.imgur.com/wGtgjo3.png)
 ![first_image](https://i.imgur.com/KOIEKhB.png)
 
 ![first_image](https://i.imgur.com/ZeF6UMm.png)
