@@ -4,10 +4,13 @@ A script that processes an image URL to extract song names and add them to a Spo
 
 [The tweet that started this](https://twitter.com/heathensquirrel/status/1693203564703653956)
 
-![tweet](https://i.imgur.com/ZH9J5fo.png)
+[The twitter trend](https://twitter.com/hashtag/20tracks?src=hashtag_click)
+
+
+![tweet](https://i.imgur.com/wGtgjo3.png)
 ![first_image](https://i.imgur.com/KOIEKhB.png)
 
-![first_image](https://i.imgur.com/CPq4BAK.png)
+![first_image](https://i.imgur.com/ZeF6UMm.png)
 
 ## Description
 
