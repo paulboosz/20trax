@@ -55,6 +55,9 @@ def main(image_url, playlist_name, config):
     if not songs:
         logging.error("No songs extracted from the image.")
         return
+    print(f"OCR identified songs :")
+    for song in songs:
+        print(song)
 
     playlist_id = create_playlist(
         playlist_name,

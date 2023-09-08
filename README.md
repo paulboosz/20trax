@@ -2,11 +2,9 @@
 
 A script that processes an image URL to extract song names and add them to a Spotify playlist.
 
-
 [The tweet that started this](https://twitter.com/heathensquirrel/status/1693203564703653956)
 
 [The twitter trend](https://twitter.com/hashtag/20tracks?src=hashtag_click)
-
 
 ![tweet](https://i.imgur.com/wGtgjo3.png)
 ![first_image](https://i.imgur.com/KOIEKhB.png)
@@ -26,13 +24,13 @@ Update the `config.json` with your Spotify API token and user ID.
 
 ## Usage
 
-`$ python 20trax.py <image_url> "<playlist_name>"`
+`$ python twenty_trax.py <image_url> "<playlist_name>"`
 
 - `image_url`: The URL of the image containing the list of songs.
 - `playlist_name`: The name of the Spotify playlist to be created or updated.
 
 For example:
-`python 20trax.py https://example.com/path/to/image.png "Nick's 20trax"`
+`python twenty_trax.py https://example.com/path/to/image.png "Nick's 20trax"`
 
 ## License
 
