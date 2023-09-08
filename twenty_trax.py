@@ -5,8 +5,19 @@ import pytesseract
 import argparse
 from io import BytesIO
 import logging
+import re
 
-logging.basicConfig(level=logging.INFO)
+# logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.DEBUG)
+
+
+def remove_leading_trailing_non_alphanumeric_and_whitespace(s):
+    # First, strip the string to remove leading and trailing whitespaces
+    s = s.strip()
+    # Then, use regular expression to remove leading and trailing non-alphanumeric characters
+    s = re.sub(r"^[^\w]+|[^\w]+$", "", s)
+    s = re.sub(r"^\d+[.,]? ", "", s)
+    return s
 
 
 def load_config(path="config.json"):
@@ -17,7 +28,11 @@ def load_config(path="config.json"):
 
 def convert_to_list(s):
     """Convert block of text into a list of strings, separated by double newlines."""
-    return [line.strip() for line in s.split("\n\n") if line.strip() != ""]
+    return [
+        remove_leading_trailing_non_alphanumeric_and_whitespace(line.strip())
+        for line in s.split("\n")
+        if line.strip() != ""
+    ]
 
 
 def image_to_text(image_url):
