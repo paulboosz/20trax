@@ -35,5 +35,3 @@ For example:
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
-
-Quickly made with the help of GPT-4 :)
